@@ -14,9 +14,6 @@
 		E16E2B1128472E98003FB03D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E2B1028472E98003FB03D /* SceneDelegate.swift */; };
 		E16E2B1828472E9A003FB03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16E2B1728472E9A003FB03D /* Assets.xcassets */; };
 		E16E2B1B28472E9A003FB03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16E2B1928472E9A003FB03D /* LaunchScreen.storyboard */; };
-		E16E2B2628472E9A003FB03D /* GithubApp_RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E2B2528472E9A003FB03D /* GithubApp_RxSwiftTests.swift */; };
-		E16E2B3028472E9A003FB03D /* GithubApp_RxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E2B2F28472E9A003FB03D /* GithubApp_RxSwiftUITests.swift */; };
-		E16E2B3228472E9A003FB03D /* GithubApp_RxSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16E2B3128472E9A003FB03D /* GithubApp_RxSwiftUITestsLaunchTests.swift */; };
 		E1B1CA4128472F8100BF172B /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1CA4028472F8100BF172B /* RepositoryListViewController.swift */; };
 		E1B1CA432847303500BF172B /* RepositoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1CA422847303500BF172B /* RepositoryListCell.swift */; };
 		E1B1CA46284730BA00BF172B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E1B1CA45284730BA00BF172B /* SnapKit */; };
@@ -56,10 +53,7 @@
 		E16E2B1A28472E9A003FB03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E16E2B1C28472E9A003FB03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E16E2B2128472E9A003FB03D /* GithubApp_RxSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubApp_RxSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E16E2B2528472E9A003FB03D /* GithubApp_RxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApp_RxSwiftTests.swift; sourceTree = "<group>"; };
 		E16E2B2B28472E9A003FB03D /* GithubApp_RxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubApp_RxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E16E2B2F28472E9A003FB03D /* GithubApp_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApp_RxSwiftUITests.swift; sourceTree = "<group>"; };
-		E16E2B3128472E9A003FB03D /* GithubApp_RxSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApp_RxSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E1B1CA4028472F8100BF172B /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		E1B1CA422847303500BF172B /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
 		E1B1CA47284737E800BF172B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
@@ -112,8 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				E16E2B0D28472E98003FB03D /* GithubApp_RxSwift */,
-				E16E2B2428472E9A003FB03D /* GithubApp_RxSwiftTests */,
-				E16E2B2E28472E9A003FB03D /* GithubApp_RxSwiftUITests */,
 				E16E2B0C28472E98003FB03D /* Products */,
 				E1621E9119A493A9C909222D /* Pods */,
 				F635A0320A55459497688A3D /* Frameworks */,
@@ -143,23 +135,6 @@
 				E16E2B1C28472E9A003FB03D /* Info.plist */,
 			);
 			path = GithubApp_RxSwift;
-			sourceTree = "<group>";
-		};
-		E16E2B2428472E9A003FB03D /* GithubApp_RxSwiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				E16E2B2528472E9A003FB03D /* GithubApp_RxSwiftTests.swift */,
-			);
-			path = GithubApp_RxSwiftTests;
-			sourceTree = "<group>";
-		};
-		E16E2B2E28472E9A003FB03D /* GithubApp_RxSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E16E2B2F28472E9A003FB03D /* GithubApp_RxSwiftUITests.swift */,
-				E16E2B3128472E9A003FB03D /* GithubApp_RxSwiftUITestsLaunchTests.swift */,
-			);
-			path = GithubApp_RxSwiftUITests;
 			sourceTree = "<group>";
 		};
 		F635A0320A55459497688A3D /* Frameworks */ = {
@@ -428,7 +403,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16E2B2628472E9A003FB03D /* GithubApp_RxSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,8 +410,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16E2B3028472E9A003FB03D /* GithubApp_RxSwiftUITests.swift in Sources */,
-				E16E2B3228472E9A003FB03D /* GithubApp_RxSwiftUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +490,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -572,7 +544,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -595,7 +567,7 @@
 				INFOPLIST_FILE = GithubApp_RxSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -625,7 +597,7 @@
 				INFOPLIST_FILE = GithubApp_RxSwift/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
