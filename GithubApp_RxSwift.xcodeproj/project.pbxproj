@@ -20,6 +20,7 @@
 		E1B1CA4128472F8100BF172B /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1CA4028472F8100BF172B /* RepositoryListViewController.swift */; };
 		E1B1CA432847303500BF172B /* RepositoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1CA422847303500BF172B /* RepositoryListCell.swift */; };
 		E1B1CA46284730BA00BF172B /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E1B1CA45284730BA00BF172B /* SnapKit */; };
+		E1B1CA48284737E800BF172B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1CA47284737E800BF172B /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E16E2B3128472E9A003FB03D /* GithubApp_RxSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApp_RxSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E1B1CA4028472F8100BF172B /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		E1B1CA422847303500BF172B /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
+		E1B1CA47284737E800BF172B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		F1EB35557B4BBEEFCF91704C /* Pods-GithubApp_RxSwift-GithubApp_RxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubApp_RxSwift-GithubApp_RxSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-GithubApp_RxSwift-GithubApp_RxSwiftUITests/Pods-GithubApp_RxSwift-GithubApp_RxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 				E16E2B0E28472E98003FB03D /* AppDelegate.swift */,
 				E16E2B1028472E98003FB03D /* SceneDelegate.swift */,
 				E1B1CA4028472F8100BF172B /* RepositoryListViewController.swift */,
+				E1B1CA47284737E800BF172B /* Repository.swift */,
 				E1B1CA422847303500BF172B /* RepositoryListCell.swift */,
 				E16E2B1728472E9A003FB03D /* Assets.xcassets */,
 				E16E2B1928472E9A003FB03D /* LaunchScreen.storyboard */,
@@ -415,6 +418,7 @@
 			files = (
 				E16E2B0F28472E98003FB03D /* AppDelegate.swift in Sources */,
 				E16E2B1128472E98003FB03D /* SceneDelegate.swift in Sources */,
+				E1B1CA48284737E800BF172B /* Repository.swift in Sources */,
 				E1B1CA4128472F8100BF172B /* RepositoryListViewController.swift in Sources */,
 				E1B1CA432847303500BF172B /* RepositoryListCell.swift in Sources */,
 			);
